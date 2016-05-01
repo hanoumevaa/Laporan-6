@@ -9,8 +9,7 @@ public class manager extends employee {
     private double tunjanganJabatan;
 
     public double tunjanganJabatan() {
-        tunjanganJabatan = 0.1 * (gaji + bonus() + tunjanganAnak() + tunjanganIstri());
-        return tunjanganJabatan;
+        return tunjanganJabatan = 0.1 * (gaji + bonus() + tunjanganAnak() + tunjanganIstri());
     }
 
     @Override
