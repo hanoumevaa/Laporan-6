@@ -24,7 +24,7 @@ public class main {
         if (jabatan == 1) {
             System.out.print("Tahun masuk\t\t: ");
             masuk = in.nextInt();
-            System.out.print("Istri(ada/tidak ada)\t: ");
+            System.out.print("Istri(ada/tidak)\t: ");
             tri = in.next();
             System.out.print("Anak\t\t\t: ");
             anak = in.nextInt();
@@ -35,7 +35,7 @@ public class main {
         } else if (jabatan == 2) {
             System.out.print("Tahun masuk\t\t: ");
             masuk = in.nextInt();
-            System.out.print("Istri(ada/tidak ada)\t: ");
+            System.out.print("Istri(ada/tidak)\t: ");
             tri = in.next();
             System.out.print("Anak\t\t\t: ");
             anak = in.nextInt();
@@ -46,7 +46,7 @@ public class main {
         } else {
             System.out.print("Tahun masuk\t\t: ");
             masuk = in.nextInt();
-            System.out.print("Istri(ada/tidak ada)\t: ");
+            System.out.print("Istri(ada/tidak)\t: ");
             tri = in.next();
             System.out.print("Anak\t\t\t: ");
             anak = in.nextInt();
