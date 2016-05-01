@@ -30,7 +30,7 @@ public class employee {
 
     public double tunjanganIstri() {
         if (istri.equalsIgnoreCase("ada")) {
-            tunjanganIstri = 0.1 * bonus;
+            tunjanganIstri = 0.1 * bonus();
         } 
         else{
             return 0;
@@ -40,9 +40,9 @@ public class employee {
 
     public double tunjanganAnak() {
         if (anak <= 3) {
-            tunjanganAnak = anak * 0.15 * bonus;
+            tunjanganAnak = anak * 0.15 * bonus();
         } else {
-            tunjanganAnak = 3 * 0.15 * bonus;
+            tunjanganAnak = 3 * 0.15 * bonus();
         }
         return tunjanganAnak;
     }
